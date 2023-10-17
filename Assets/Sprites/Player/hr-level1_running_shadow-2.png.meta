@@ -1,0 +1,2076 @@
+fileFormatVersion: 2
+guid: 167f504ca2c15ed46a8c5d81c6d5c750
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9ee944f4b2c1642bfffb53ceff7420
+      internalID: 472435140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8b29d862fbd9c45baa2038b78eeaae
+      internalID: -1332971314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d1933ad86e4f44699c2e308f30ebd2
+      internalID: -1575546189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49f598bef15fed4bb6d3117ea08fc51
+      internalID: 309179493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136ea9a5e2e73fc479a48e0b3a358deb
+      internalID: -440429693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_5
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8691e607daef04582840999ae1f208
+      internalID: -134470040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3050ea493d0bce49b8bf541fc46cc76
+      internalID: 1316638769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_7
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe6c0aaa77c16944bef7178988e025c
+      internalID: -979268284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_8
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d66486b1025104487f718c5be2a1c7
+      internalID: 156613968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_9
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69d909e2fda824ab549d31f0494fd0
+      internalID: -1862894460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_10
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 476
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238c45261f0daf645b075e659c98e05e
+      internalID: -1961018549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742f46239e7cd1d44b82cd24d72af38f
+      internalID: 394281371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae6edbae5eae5644a06fe8509b343b2
+      internalID: -1287032107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_13
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8375a4c707dd12c4f9164b914476d2a0
+      internalID: -1220909073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_14
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0fe00d293bbc40862675dbd65e31a
+      internalID: 600751065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbae9fc8d219654498aefac051090c5
+      internalID: -1409041769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_16
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c64685152a03e4096f2824d94f233a
+      internalID: -1503817345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_17
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6396885cf4bdf69418515a281dec6462
+      internalID: 1778363613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_18
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a04a888e1a09148b71157b78f35c57
+      internalID: -1166090171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_19
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc5f3ad808c4bc4892480d59e3a5c44
+      internalID: 735413692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_20
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6c5e6e6695cec47874455804befa7e
+      internalID: 1636456769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_21
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 408
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2118f6d3ce873429062c8bf6cdbf13
+      internalID: 2016348556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f528ea42e4476c14cb3e51109241720d
+      internalID: -240647896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ef35d805430794691933525a5f5f22
+      internalID: 2050677653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3988998f4d8d8c5468c1cd2da69860af
+      internalID: -1789517529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_25
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb2bf65f60fa294c84bd432be9c2a38
+      internalID: 688244998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_26
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5215c823406a58c4b87fc2d2bb03abef
+      internalID: -262508391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_27
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bdb45f1cbfe0548a911b2fb1a9bc99
+      internalID: 246765191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_28
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde0c3287870b14f9208039a5543025
+      internalID: 354306605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_29
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0674a53e3e00014098bb16d0fed9562
+      internalID: -268609543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_30
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381389b878ccf40478bc7454dde6e513
+      internalID: 1754944294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_31
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8691e5c371bb0cf47b79da9185838af3
+      internalID: -1672070964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_32
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 340
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0e8d86c6c00da448d351ac5a838e9c
+      internalID: 814654896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072a18201124e7d47948e0dac240b907
+      internalID: 1683561438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_34
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13dbffe372471f4585aba3a599bf245
+      internalID: -491929571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_35
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff3dce2a6d1bcf47b59ad54b4758914
+      internalID: -1598519677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_36
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0babdc9414f78742af006a663bb2af2
+      internalID: -1016270263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_37
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1443109b1d70cd04e8c029bf3eed4439
+      internalID: 1814333081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_38
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71efea0e842218546846eaca736e3562
+      internalID: 141185338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_39
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12538aa11839f9d459a7b30d2b9cb63f
+      internalID: 1937091367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_40
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b206a00d23788f4bb4d6069ce798e3f
+      internalID: -701299282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_41
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af39b0b99edf11458e5f64c5105f557
+      internalID: 514389816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_42
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d90179e1af57542ad1be646f8b4cf9
+      internalID: -100779713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_43
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 272
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b057f474b0169474297afd4713055be4
+      internalID: 47706975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07403697632da6409984ebc5681bdf1
+      internalID: -1569239139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_45
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97a7d21e1910d94986532ae9349e2ba
+      internalID: 1750057054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_46
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2d8e76b87c72c4d9b162127757514d
+      internalID: -1811586309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_47
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e70c8ef30951224f9579fa7e95a76c1
+      internalID: -1138861894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_48
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41722cdecad40f46a3a35755d87cf4d
+      internalID: 980121580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_49
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea712db693511746a1dbe475c2dfc2c
+      internalID: 1195564873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_50
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dac799d0f6efc46a3ec347d39c860a
+      internalID: -419329197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_51
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c8c37a7a2cf1249b01769e5770efc3
+      internalID: 831150988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_52
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65af124426e45f74eb5c0d59f7e699bc
+      internalID: -552812171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_53
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1bd48226ae80d4bbad018aa1921dc3
+      internalID: 874711594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_54
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 204
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce618db6976bba545a1fbc805eddf435
+      internalID: -1764613519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063fe7890a652ae48a917a6acadad44f
+      internalID: 922297700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_56
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06717076e358d96428cd61ad17e40187
+      internalID: 509346693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_57
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996c1ad333ac59e46a3d32aa3e966162
+      internalID: -812842597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_58
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d666d2a053847814293d5297f1761d5c
+      internalID: -10527975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_59
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde2d817f5204df4f98342a7d08c5432
+      internalID: -1179724502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_60
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde753a1c8590e1428c453db107fc246
+      internalID: 1409790870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_61
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f69168a1e86a954593e7b39249c59f5
+      internalID: 1596074666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_62
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dbb89e96ce56444bdc738ca9b16894
+      internalID: -2133074674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_63
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051e2f1c7b6c294782976916ce436d6
+      internalID: -150781727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_64
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be44875437f4c4fa955682dbb87ad4
+      internalID: -1245996261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_65
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 136
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade693cd5d81c1246af2f6d2b4426514
+      internalID: 478972370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b323fd6a8cbd04c82b89fd627135a3
+      internalID: -1768456758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_67
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b59e6c70cb3bbb49867db2d97ff97c5
+      internalID: 377941687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_68
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb98d895845f30749b670e88877910d6
+      internalID: -1554982117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_69
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc1422242653545900425e622f79e1
+      internalID: -1143974198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_70
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f9a588033896459b97d42e4d61d58
+      internalID: 868924307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_71
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cc09be26eae9545a014436d58e8283
+      internalID: -1339690533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_72
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ba9de0bc1286a498636eb25b32388e
+      internalID: -1439921843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_73
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8f4378d37596a43922aeec08a24b04
+      internalID: 542080646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_74
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43007600c227ecf4898e50e9668ac2bb
+      internalID: 659450326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_75
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861f335f39d8e014ab8e01fa83549a2e
+      internalID: -1373473191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_76
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 68
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6a359cb7f570c44a7238d24de8f33d
+      internalID: -35972132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917af04bcdf7a8344be9476bf5358331
+      internalID: 567159394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_78
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f52565847167da418703d80fb8e168b
+      internalID: 1856508883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_79
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51720808feb7b084dbdf8fd07677bf20
+      internalID: -1546129672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_80
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f36c2f6048d7a46a8f9371f05da40a
+      internalID: 721624721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_81
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c02f1e41a0ae6479b3ac85c4158920
+      internalID: 1708693152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_82
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae677a8a65913a04ea79890e4537d44f
+      internalID: 2049592918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_83
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d1e921b0ad94d4aa61216974b3f55e
+      internalID: -897634343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_84
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f78c4edcac20438e389747e16b63a
+      internalID: -1765167098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_85
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b300f2701f85c6b47959621ad55d33c6
+      internalID: 1225442032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_86
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fbe8c0094a31849a61c6b33ab16085
+      internalID: -678143430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_running_shadow-2_87
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa5775dfffef0a42a133c4e4d71443a
+      internalID: -1044992959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hr-level1_running_shadow-2_0: 472435140
+      hr-level1_running_shadow-2_1: -1332971314
+      hr-level1_running_shadow-2_10: -1961018549
+      hr-level1_running_shadow-2_11: 394281371
+      hr-level1_running_shadow-2_12: -1287032107
+      hr-level1_running_shadow-2_13: -1220909073
+      hr-level1_running_shadow-2_14: 600751065
+      hr-level1_running_shadow-2_15: -1409041769
+      hr-level1_running_shadow-2_16: -1503817345
+      hr-level1_running_shadow-2_17: 1778363613
+      hr-level1_running_shadow-2_18: -1166090171
+      hr-level1_running_shadow-2_19: 735413692
+      hr-level1_running_shadow-2_2: -1575546189
+      hr-level1_running_shadow-2_20: 1636456769
+      hr-level1_running_shadow-2_21: 2016348556
+      hr-level1_running_shadow-2_22: -240647896
+      hr-level1_running_shadow-2_23: 2050677653
+      hr-level1_running_shadow-2_24: -1789517529
+      hr-level1_running_shadow-2_25: 688244998
+      hr-level1_running_shadow-2_26: -262508391
+      hr-level1_running_shadow-2_27: 246765191
+      hr-level1_running_shadow-2_28: 354306605
+      hr-level1_running_shadow-2_29: -268609543
+      hr-level1_running_shadow-2_3: 309179493
+      hr-level1_running_shadow-2_30: 1754944294
+      hr-level1_running_shadow-2_31: -1672070964
+      hr-level1_running_shadow-2_32: 814654896
+      hr-level1_running_shadow-2_33: 1683561438
+      hr-level1_running_shadow-2_34: -491929571
+      hr-level1_running_shadow-2_35: -1598519677
+      hr-level1_running_shadow-2_36: -1016270263
+      hr-level1_running_shadow-2_37: 1814333081
+      hr-level1_running_shadow-2_38: 141185338
+      hr-level1_running_shadow-2_39: 1937091367
+      hr-level1_running_shadow-2_4: -440429693
+      hr-level1_running_shadow-2_40: -701299282
+      hr-level1_running_shadow-2_41: 514389816
+      hr-level1_running_shadow-2_42: -100779713
+      hr-level1_running_shadow-2_43: 47706975
+      hr-level1_running_shadow-2_44: -1569239139
+      hr-level1_running_shadow-2_45: 1750057054
+      hr-level1_running_shadow-2_46: -1811586309
+      hr-level1_running_shadow-2_47: -1138861894
+      hr-level1_running_shadow-2_48: 980121580
+      hr-level1_running_shadow-2_49: 1195564873
+      hr-level1_running_shadow-2_5: -134470040
+      hr-level1_running_shadow-2_50: -419329197
+      hr-level1_running_shadow-2_51: 831150988
+      hr-level1_running_shadow-2_52: -552812171
+      hr-level1_running_shadow-2_53: 874711594
+      hr-level1_running_shadow-2_54: -1764613519
+      hr-level1_running_shadow-2_55: 922297700
+      hr-level1_running_shadow-2_56: 509346693
+      hr-level1_running_shadow-2_57: -812842597
+      hr-level1_running_shadow-2_58: -10527975
+      hr-level1_running_shadow-2_59: -1179724502
+      hr-level1_running_shadow-2_6: 1316638769
+      hr-level1_running_shadow-2_60: 1409790870
+      hr-level1_running_shadow-2_61: 1596074666
+      hr-level1_running_shadow-2_62: -2133074674
+      hr-level1_running_shadow-2_63: -150781727
+      hr-level1_running_shadow-2_64: -1245996261
+      hr-level1_running_shadow-2_65: 478972370
+      hr-level1_running_shadow-2_66: -1768456758
+      hr-level1_running_shadow-2_67: 377941687
+      hr-level1_running_shadow-2_68: -1554982117
+      hr-level1_running_shadow-2_69: -1143974198
+      hr-level1_running_shadow-2_7: -979268284
+      hr-level1_running_shadow-2_70: 868924307
+      hr-level1_running_shadow-2_71: -1339690533
+      hr-level1_running_shadow-2_72: -1439921843
+      hr-level1_running_shadow-2_73: 542080646
+      hr-level1_running_shadow-2_74: 659450326
+      hr-level1_running_shadow-2_75: -1373473191
+      hr-level1_running_shadow-2_76: -35972132
+      hr-level1_running_shadow-2_77: 567159394
+      hr-level1_running_shadow-2_78: 1856508883
+      hr-level1_running_shadow-2_79: -1546129672
+      hr-level1_running_shadow-2_8: 156613968
+      hr-level1_running_shadow-2_80: 721624721
+      hr-level1_running_shadow-2_81: 1708693152
+      hr-level1_running_shadow-2_82: 2049592918
+      hr-level1_running_shadow-2_83: -897634343
+      hr-level1_running_shadow-2_84: -1765167098
+      hr-level1_running_shadow-2_85: 1225442032
+      hr-level1_running_shadow-2_86: -678143430
+      hr-level1_running_shadow-2_87: -1044992959
+      hr-level1_running_shadow-2_9: -1862894460
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

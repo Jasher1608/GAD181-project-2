@@ -1,0 +1,4012 @@
+fileFormatVersion: 2
+guid: ed6ba749ec384994ba9c8c477c498121
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3505f202f46245419bfaeef380261d9
+      internalID: -27731960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2489d95ea4eb3af4ab14854d9e76fb14
+      internalID: 1027419787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a94a66567442024bb4ec5b4f2af47d4
+      internalID: -1826570369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c406e578c3f3740bde72b2db90120e
+      internalID: 670769478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fdffa51706b0a4dbd84cce248682b9
+      internalID: 1342689835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c587d84b82e14e4d9071b89dfdc702e
+      internalID: -423163504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aba35acda3aa7e429dfc54bc256d20d
+      internalID: -1048242467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da25cfd872372184bba3b935e66f0a91
+      internalID: 874763431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0528997ff3676c647b5033edefed552e
+      internalID: -1900112454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515cda8d31076174c9c375c0ce810230
+      internalID: -1570962526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a496f4a4453164b8f3bd423ea8e80a
+      internalID: 1528359453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231ab92bef8241c4696519db0d164bc0
+      internalID: -2078482918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d416601e52b04e41831f516850f1743
+      internalID: 993651695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfc43e0d3fa2724790636195f191839
+      internalID: 2011012674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d21e72cef20844982d007b9c6fa38e
+      internalID: 206515138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6923d4b2124fc41b5dbe64aed39805
+      internalID: 1911389705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a9b9428928e344ba67747a4747b38b
+      internalID: 161716999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e1417ea56f05844a5cb3fbf0fd8b55
+      internalID: -227616337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6953afa1f0524795cebdfa1c8800f
+      internalID: -1498143415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c723a1e2b3dde469649dce9fbd4ed6
+      internalID: 1207242177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3a2d0e7b3ddd34d945e847f17f8780
+      internalID: -1073184608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 546
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e4f4dd9f8db404aaa5e6ef2000fc24
+      internalID: -1931543730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f9cd552df2d244f8682a513ca4751e
+      internalID: -117202011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df292cc76c6efe44916f599511b4c60
+      internalID: 786091938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f268019128af3343949494e389d905c
+      internalID: 726471032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b5293e8def8cf49b333af46891fa43
+      internalID: -356301836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec56a0c74d43694686cec2707aefa4d
+      internalID: -69117058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84a32e7fbdab6941890e879984c8505
+      internalID: -127723257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aca4fc47d91c94ba7aa121169e13d5
+      internalID: -108630897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a3e445e81b2f9408fbe7232d63d372
+      internalID: 1851861477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf027c7202c5b6499357293b1e93c81
+      internalID: 1227328309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb6afba5515f9c419dbd26ed9c18f84
+      internalID: -1130783170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5b3eb787ca67547ade4ff82562a9f7
+      internalID: 338632965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45406ae99cd47874c82b51b3e5664f91
+      internalID: 1682247231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba81063f5534754389f7d45b60683de
+      internalID: -1915091031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce9dcb6478dfa640bd138596727dce2
+      internalID: -802600921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efbb49435627a54f92cd71ac72e9111
+      internalID: -1739601055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c103d63af453cc4dba6babe7e7cb8dd
+      internalID: 1873681384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682948fd9fad0bd4ba0654aa12055e84
+      internalID: 964769601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b298eb666d6aab45a091d3c7d2c5411
+      internalID: -2025461009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_40
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c1a9ca83d0b484cb76e3f5f0c27d82
+      internalID: -1032553787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_41
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0310f343076e74438aea65e840dafa3
+      internalID: 2064364773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_42
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81c14b47e97cea43a0d679b413193a3
+      internalID: 2082655647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_43
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 468
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cce8c273d2f4344aadeb9498890096a
+      internalID: 461545215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d9d5bb4e8975a419412812a8a40cec
+      internalID: 517138548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_45
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57042dd7f38ad8438b1d6e0c2e9f0fb
+      internalID: 156052042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_46
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9982bc67a1ac3740aa09a4b12c8b174
+      internalID: -965037169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_47
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2bb23049af9ca42b93815ba8c9ae00
+      internalID: 14647468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_48
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4865f50f8521e364386665b93b92259c
+      internalID: -185982400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_49
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8036f2528e5d52e4685050987d4a6908
+      internalID: 1688076953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_50
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5084e8e13b7d0fd449519dafaa040af7
+      internalID: -2044654996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_51
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9248af9a1df3f94281605af33e8a9ef
+      internalID: -691256008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_52
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038b1efae3c4f2c4c84e87e52d2d187c
+      internalID: -423178784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_53
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fad567199a1364479da3f99ea45e2f3
+      internalID: 372361468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_54
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c52db2b1b0aa946b031f32536c4fe7
+      internalID: -715381564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_55
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c56cb68797cf2f44b360f496c63bd30
+      internalID: 932356452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_56
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a3337ee40983a4db32fcb2a548010f
+      internalID: -673451358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_57
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168129be813f79143baa7469dcbc87ca
+      internalID: 1720322839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_58
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443914ed80ecdaf449fc2efede056e82
+      internalID: -408616171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_59
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba1c9a7109808a43b90b7d89408571d
+      internalID: -1750954600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_60
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50043b564d07b94590bc5ea793e9e4b
+      internalID: -558954980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_61
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598fdfe4e16c9544c99ebd86afc9bb89
+      internalID: -1533250007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_62
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efff4b058cf10dc4b927d3763104cca7
+      internalID: -772077062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_63
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eddae2a8545e8744851259620de3b5f
+      internalID: 674433611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_64
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f285ced6e925d4fa2f46d8179c60af
+      internalID: -838723722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_65
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 390
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870780692fc1ba14c84ac44907828949
+      internalID: 2133733094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79be34cbca8d4d3409c6f18a93ceb93e
+      internalID: 849062134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_67
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcccb540cea4da74f933d4cb0ddf3bb4
+      internalID: -364081444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_68
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e78e308d13e8f14a81e94a2a319aaa2
+      internalID: -1407612222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_69
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022fe23b040dbb6499121b459d5bf2fd
+      internalID: -339737348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_70
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f264556f5f56fc4ebc923593b69d49d
+      internalID: -1108609299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_71
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f1d1a8b230e3f4ea874b472a4c4fd2
+      internalID: -1716768902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_72
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8bf709adda0d1419839873461c205c
+      internalID: 375364934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_73
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbac26a8062a67f48b0806fd0f293f72
+      internalID: -185849335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_74
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836b7601292fb34faf4faa5a790c94f
+      internalID: 1800640097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_75
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dd8b961bfcb8142ac03aefe22aac27
+      internalID: 1596564365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_76
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfaf19380a923b4c8597de58b270ed8
+      internalID: -874158387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_77
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893f1cedb72b5394d8bfe27c40835af2
+      internalID: -1815284762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_78
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e093cb7866853488fdeceb526afbad
+      internalID: 72198771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_79
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b13ab9bf9f5b54bac3115b5984f0c7
+      internalID: -1959231472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_80
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d33a0cb6ced8b49a62cd3bda3629ec
+      internalID: 1965186398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_81
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a560836fc0fa534381663061f14fe55
+      internalID: 1111548071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_82
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7e14072dcea57458a7c8dc846e9334
+      internalID: -890028502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_83
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6940255668cfde74585fa10c668b68bc
+      internalID: -626954881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_84
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899afe4daa4041d489af111ab4c79c39
+      internalID: -654631551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_85
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9816178b88e3ba949b5627f152de6f99
+      internalID: 386403397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_86
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb267f960b66ad47bf636b25d83d5d0
+      internalID: -1194083914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_87
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 312
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd9abad40ad6aa48aa55760ff52c8b7
+      internalID: 1221966214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf32a3aa7bbcc3449daefb0fc06dca9
+      internalID: 1676835638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_89
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bdf403133decf4d9b4c81da3995d13
+      internalID: 477930141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_90
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09149ce39c204004fb7a3e213cf59515
+      internalID: -444675983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_91
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1e3076e859a884e94ab22f0f389881
+      internalID: -1671284161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_92
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d175ab2321aab49b68babf8f7a9a1f
+      internalID: -947677974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_93
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b705f23b85dba94c90017e742ef129b
+      internalID: -311282589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_94
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc68fbc1bda37ff42bad18585cc8b719
+      internalID: 670039547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_95
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af07dc5dae810204db7acf60aa247bd9
+      internalID: 321700651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_96
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f04544b4239b9f4dac55481c6e36254
+      internalID: -70188384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_97
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261fe96bf93f5eb408e240f3d236d4d4
+      internalID: -239699200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_98
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d75af3ba104f04ca51eb33049d1956
+      internalID: 95513697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_99
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a426d2863f88d2b4687efe2df85fd31b
+      internalID: -650353872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_100
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf99e38bdfc9f141b9e69f4196dc70d
+      internalID: -1481665421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_101
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81240b0008441fe4585fdd8fae7d830b
+      internalID: 480181331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_102
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da763f21cbded5f40b8c94fd23caeda9
+      internalID: 445880831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_103
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d498f01dfdd0ad742ab2d18062db479f
+      internalID: -509374262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_104
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc551ed4c51798e498f40c6fe565fb8e
+      internalID: 1452933944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_105
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff7c1c997620ed4eb3e39b2a33c8a9d
+      internalID: -379374195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_106
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e844bd72aa2440f43a30b5b52e13b6b2
+      internalID: 431899489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_107
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600c12c68e6852a4f9d69a117058d128
+      internalID: -1288417350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_108
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7e09972953a694f93429db2fd1b3e4
+      internalID: -251644704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_109
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 234
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62444fbfa9b2c946b88b0e212cb4caf
+      internalID: 2033950578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30bb345de6529348933fa3dcf77c076
+      internalID: -1992472394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_111
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade80a8aae0b9a1418cbac55bafbd38d
+      internalID: -2138962578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_112
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f067bcef0bd14646afe414757b11696
+      internalID: -1459751708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_113
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b123eaf866f019429562bbabd656e58
+      internalID: -178902381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_114
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36c215509edd1c4d8050f3d287c3d5e
+      internalID: -1039628352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_115
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239df1ce65ced024b8a280068ab2383c
+      internalID: 393393235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_116
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1998308826d691459e25c01178673e0
+      internalID: 1399091831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_117
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78b17266daeae143a54889aa738230f
+      internalID: 191751812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_118
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56384543119e18046bf8a178e1747de3
+      internalID: 1472774800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_119
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c414b1f5af12149bb3522671a07243
+      internalID: 237751290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_120
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e68682505481d439549fa3f2e7256e
+      internalID: 31688527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_121
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4169a683c78a5d4a9717dd8ccf17be8
+      internalID: 41126366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_122
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8e09d5dac768a4db5ae31e0050302c
+      internalID: -101643057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_123
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b05dc7ceb993d74aa37e16d839bee51
+      internalID: 371129356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_124
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9de16d125b802e46a24bdec76a989f0
+      internalID: -1441083640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_125
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e30fbbc90c16947a7afd559bf6980a
+      internalID: 1044692288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_126
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ddf66be2aa4b94d9c6e818aec2f1d6
+      internalID: -1240505475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_127
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff10cb332e3aa9e40b9d1697ac4f06c1
+      internalID: -1915550781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_128
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e3b8ee1216036408dac0540f0cfe4a
+      internalID: -928896198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_129
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f16e5074b2eebe499c12f0f5ef7772e
+      internalID: -991619284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_130
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9590504893ff00c4991cf085473983ce
+      internalID: -620576667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_131
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 156
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b5b9df3b15eb43957f5c38bf65c61
+      internalID: -694929306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf84a9d0ee047d45a5e832f27b2befe
+      internalID: -871960899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_133
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5036939760a0149bfef106606722df
+      internalID: 803585169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_134
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01159c14828cfd844a60e22928864d77
+      internalID: -1873160050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_135
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b599d6e3a8f64f545a32df3e925d2d16
+      internalID: 662866701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_136
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91975a1163177b341a88b2a774c6efff
+      internalID: -483795783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_137
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b08c7ba438b33478cb63a03d21c9b7
+      internalID: -936669795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_138
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8440baeb425302c499e59397df4990f4
+      internalID: 1244592060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_139
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17262354b7e0d241bb3c0a7f1622a3e
+      internalID: 278353248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_140
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e1dff812fcdf345803fcfa7d61fad6
+      internalID: 1007827403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_141
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ae1552aec920a409cbd08430ef1d7e
+      internalID: 1377731661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_142
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e5e8c171293247b86eefe06ee3f03
+      internalID: 1713113746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_143
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5a3e6d28648ef4888af2c529100b93
+      internalID: 1489073547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_144
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62041a5fa8d8b1b4a8287ae0d6835a91
+      internalID: 1382609259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_145
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45525faccf1f101459a7555f666dedb5
+      internalID: 1977008271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_146
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7207f9df673a547b3b767175a583b9
+      internalID: 581022807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_147
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cad80643c63af4a84fcbedd22b96d7
+      internalID: -1742204097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_148
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3da662566f4e046973d09fe2040a75
+      internalID: 1755291728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_149
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d918f3c0c4b3340abe2e4e5f8eff4f
+      internalID: -205581708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_150
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15502f6a1240cc840aeb91613abe329d
+      internalID: 436377759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_151
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3616ca1f9cb334baa788ff191ec089
+      internalID: -1163134467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_152
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3243737ffbc4b4f8684edfb59ea5d0
+      internalID: 1337440009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_153
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 78
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5ed32979c26494784b464438eec207
+      internalID: -1118597334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b4e2dec00ebdf4a97dc3844d8bc368
+      internalID: 1011932204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_155
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28414c426c7b075408243c0c0bf191d9
+      internalID: 1346224524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_156
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555ea32fdf5c4bd4aa067975bce1317d
+      internalID: 1029315413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_157
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5fadc71a8cca84ab67a76ad7d01baf
+      internalID: -1323982445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_158
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42312b97f3063c54997afbe0d89a331e
+      internalID: -1486301197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_159
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee140aae8152e064bab06f23f81fc61f
+      internalID: -508924298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_160
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca080df56290ad46a308b351efc7f1a
+      internalID: -1146537621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_161
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9dc844746b4674fbb85053a3cb1b16
+      internalID: 563209957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_162
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7d3b8a3423a4e40acee7f0ee76b939
+      internalID: 603580723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_163
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1d6d2a983c9a64c8789be24f27500c
+      internalID: -1561730131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_164
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab92c61c8c5d6a439f9f58e2ef1c6eb
+      internalID: -1488879517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_165
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e49a218e19e974d873633cbd4ea275
+      internalID: 1037851605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_166
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331f36f140a6d0940a6da3b84f4ee7ac
+      internalID: 1747329695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_167
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5d22a1fd9426d4bbb2a4331acad69e
+      internalID: 328721359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_168
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694cf762aa731d94ab73ac0df8af4b16
+      internalID: 799796233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_169
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e475042bae9c0d4e979dd566bfff966
+      internalID: 311857023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_170
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff7887dddb8433498db33f5294553ab
+      internalID: -370966773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_171
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa2234badb30d488517214845c3b56
+      internalID: -1055375712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_172
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc9d7eb79a5e5b4ca30584d132004fb
+      internalID: -1168356270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_173
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a78bf8e76a17754daa3e6e1ea74f1c1
+      internalID: 231345432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_174
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af927303c9fec9047902cf8af81e4475
+      internalID: -1173613374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-level1_idle_shadow_175
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 0
+        width: 164
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7474d3d48f0e6b34497a03859f16c606
+      internalID: -1389614066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hr-level1_idle_shadow_0: -27731960
+      hr-level1_idle_shadow_1: 1027419787
+      hr-level1_idle_shadow_10: 1528359453
+      hr-level1_idle_shadow_100: -1481665421
+      hr-level1_idle_shadow_101: 480181331
+      hr-level1_idle_shadow_102: 445880831
+      hr-level1_idle_shadow_103: -509374262
+      hr-level1_idle_shadow_104: 1452933944
+      hr-level1_idle_shadow_105: -379374195
+      hr-level1_idle_shadow_106: 431899489
+      hr-level1_idle_shadow_107: -1288417350
+      hr-level1_idle_shadow_108: -251644704
+      hr-level1_idle_shadow_109: 2033950578
+      hr-level1_idle_shadow_11: -2078482918
+      hr-level1_idle_shadow_110: -1992472394
+      hr-level1_idle_shadow_111: -2138962578
+      hr-level1_idle_shadow_112: -1459751708
+      hr-level1_idle_shadow_113: -178902381
+      hr-level1_idle_shadow_114: -1039628352
+      hr-level1_idle_shadow_115: 393393235
+      hr-level1_idle_shadow_116: 1399091831
+      hr-level1_idle_shadow_117: 191751812
+      hr-level1_idle_shadow_118: 1472774800
+      hr-level1_idle_shadow_119: 237751290
+      hr-level1_idle_shadow_12: 993651695
+      hr-level1_idle_shadow_120: 31688527
+      hr-level1_idle_shadow_121: 41126366
+      hr-level1_idle_shadow_122: -101643057
+      hr-level1_idle_shadow_123: 371129356
+      hr-level1_idle_shadow_124: -1441083640
+      hr-level1_idle_shadow_125: 1044692288
+      hr-level1_idle_shadow_126: -1240505475
+      hr-level1_idle_shadow_127: -1915550781
+      hr-level1_idle_shadow_128: -928896198
+      hr-level1_idle_shadow_129: -991619284
+      hr-level1_idle_shadow_13: 2011012674
+      hr-level1_idle_shadow_130: -620576667
+      hr-level1_idle_shadow_131: -694929306
+      hr-level1_idle_shadow_132: -871960899
+      hr-level1_idle_shadow_133: 803585169
+      hr-level1_idle_shadow_134: -1873160050
+      hr-level1_idle_shadow_135: 662866701
+      hr-level1_idle_shadow_136: -483795783
+      hr-level1_idle_shadow_137: -936669795
+      hr-level1_idle_shadow_138: 1244592060
+      hr-level1_idle_shadow_139: 278353248
+      hr-level1_idle_shadow_14: 206515138
+      hr-level1_idle_shadow_140: 1007827403
+      hr-level1_idle_shadow_141: 1377731661
+      hr-level1_idle_shadow_142: 1713113746
+      hr-level1_idle_shadow_143: 1489073547
+      hr-level1_idle_shadow_144: 1382609259
+      hr-level1_idle_shadow_145: 1977008271
+      hr-level1_idle_shadow_146: 581022807
+      hr-level1_idle_shadow_147: -1742204097
+      hr-level1_idle_shadow_148: 1755291728
+      hr-level1_idle_shadow_149: -205581708
+      hr-level1_idle_shadow_15: 1911389705
+      hr-level1_idle_shadow_150: 436377759
+      hr-level1_idle_shadow_151: -1163134467
+      hr-level1_idle_shadow_152: 1337440009
+      hr-level1_idle_shadow_153: -1118597334
+      hr-level1_idle_shadow_154: 1011932204
+      hr-level1_idle_shadow_155: 1346224524
+      hr-level1_idle_shadow_156: 1029315413
+      hr-level1_idle_shadow_157: -1323982445
+      hr-level1_idle_shadow_158: -1486301197
+      hr-level1_idle_shadow_159: -508924298
+      hr-level1_idle_shadow_16: 161716999
+      hr-level1_idle_shadow_160: -1146537621
+      hr-level1_idle_shadow_161: 563209957
+      hr-level1_idle_shadow_162: 603580723
+      hr-level1_idle_shadow_163: -1561730131
+      hr-level1_idle_shadow_164: -1488879517
+      hr-level1_idle_shadow_165: 1037851605
+      hr-level1_idle_shadow_166: 1747329695
+      hr-level1_idle_shadow_167: 328721359
+      hr-level1_idle_shadow_168: 799796233
+      hr-level1_idle_shadow_169: 311857023
+      hr-level1_idle_shadow_17: -227616337
+      hr-level1_idle_shadow_170: -370966773
+      hr-level1_idle_shadow_171: -1055375712
+      hr-level1_idle_shadow_172: -1168356270
+      hr-level1_idle_shadow_173: 231345432
+      hr-level1_idle_shadow_174: -1173613374
+      hr-level1_idle_shadow_175: -1389614066
+      hr-level1_idle_shadow_18: -1498143415
+      hr-level1_idle_shadow_19: 1207242177
+      hr-level1_idle_shadow_2: -1826570369
+      hr-level1_idle_shadow_20: -1073184608
+      hr-level1_idle_shadow_21: -1931543730
+      hr-level1_idle_shadow_22: -117202011
+      hr-level1_idle_shadow_23: 786091938
+      hr-level1_idle_shadow_24: 726471032
+      hr-level1_idle_shadow_25: -356301836
+      hr-level1_idle_shadow_26: -69117058
+      hr-level1_idle_shadow_27: -127723257
+      hr-level1_idle_shadow_28: -108630897
+      hr-level1_idle_shadow_29: 1851861477
+      hr-level1_idle_shadow_3: 670769478
+      hr-level1_idle_shadow_30: 1227328309
+      hr-level1_idle_shadow_31: -1130783170
+      hr-level1_idle_shadow_32: 338632965
+      hr-level1_idle_shadow_33: 1682247231
+      hr-level1_idle_shadow_34: -1915091031
+      hr-level1_idle_shadow_35: -802600921
+      hr-level1_idle_shadow_36: -1739601055
+      hr-level1_idle_shadow_37: 1873681384
+      hr-level1_idle_shadow_38: 964769601
+      hr-level1_idle_shadow_39: -2025461009
+      hr-level1_idle_shadow_4: 1342689835
+      hr-level1_idle_shadow_40: -1032553787
+      hr-level1_idle_shadow_41: 2064364773
+      hr-level1_idle_shadow_42: 2082655647
+      hr-level1_idle_shadow_43: 461545215
+      hr-level1_idle_shadow_44: 517138548
+      hr-level1_idle_shadow_45: 156052042
+      hr-level1_idle_shadow_46: -965037169
+      hr-level1_idle_shadow_47: 14647468
+      hr-level1_idle_shadow_48: -185982400
+      hr-level1_idle_shadow_49: 1688076953
+      hr-level1_idle_shadow_5: -423163504
+      hr-level1_idle_shadow_50: -2044654996
+      hr-level1_idle_shadow_51: -691256008
+      hr-level1_idle_shadow_52: -423178784
+      hr-level1_idle_shadow_53: 372361468
+      hr-level1_idle_shadow_54: -715381564
+      hr-level1_idle_shadow_55: 932356452
+      hr-level1_idle_shadow_56: -673451358
+      hr-level1_idle_shadow_57: 1720322839
+      hr-level1_idle_shadow_58: -408616171
+      hr-level1_idle_shadow_59: -1750954600
+      hr-level1_idle_shadow_6: -1048242467
+      hr-level1_idle_shadow_60: -558954980
+      hr-level1_idle_shadow_61: -1533250007
+      hr-level1_idle_shadow_62: -772077062
+      hr-level1_idle_shadow_63: 674433611
+      hr-level1_idle_shadow_64: -838723722
+      hr-level1_idle_shadow_65: 2133733094
+      hr-level1_idle_shadow_66: 849062134
+      hr-level1_idle_shadow_67: -364081444
+      hr-level1_idle_shadow_68: -1407612222
+      hr-level1_idle_shadow_69: -339737348
+      hr-level1_idle_shadow_7: 874763431
+      hr-level1_idle_shadow_70: -1108609299
+      hr-level1_idle_shadow_71: -1716768902
+      hr-level1_idle_shadow_72: 375364934
+      hr-level1_idle_shadow_73: -185849335
+      hr-level1_idle_shadow_74: 1800640097
+      hr-level1_idle_shadow_75: 1596564365
+      hr-level1_idle_shadow_76: -874158387
+      hr-level1_idle_shadow_77: -1815284762
+      hr-level1_idle_shadow_78: 72198771
+      hr-level1_idle_shadow_79: -1959231472
+      hr-level1_idle_shadow_8: -1900112454
+      hr-level1_idle_shadow_80: 1965186398
+      hr-level1_idle_shadow_81: 1111548071
+      hr-level1_idle_shadow_82: -890028502
+      hr-level1_idle_shadow_83: -626954881
+      hr-level1_idle_shadow_84: -654631551
+      hr-level1_idle_shadow_85: 386403397
+      hr-level1_idle_shadow_86: -1194083914
+      hr-level1_idle_shadow_87: 1221966214
+      hr-level1_idle_shadow_88: 1676835638
+      hr-level1_idle_shadow_89: 477930141
+      hr-level1_idle_shadow_9: -1570962526
+      hr-level1_idle_shadow_90: -444675983
+      hr-level1_idle_shadow_91: -1671284161
+      hr-level1_idle_shadow_92: -947677974
+      hr-level1_idle_shadow_93: -311282589
+      hr-level1_idle_shadow_94: 670039547
+      hr-level1_idle_shadow_95: 321700651
+      hr-level1_idle_shadow_96: -70188384
+      hr-level1_idle_shadow_97: -239699200
+      hr-level1_idle_shadow_98: 95513697
+      hr-level1_idle_shadow_99: -650353872
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
