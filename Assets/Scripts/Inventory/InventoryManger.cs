@@ -119,7 +119,7 @@ public class InventoryManger : MonoBehaviour
         SlotClass slot = Contains(item);
         if (slot != null && slot.GetItem().isStackable)
         {
-            slot.AddQuantity(1);
+            slot.AddQuantity(movingSlot.GetQuantity());
         }
         else
         {
