@@ -70,6 +70,19 @@ public class InventoryManger : MonoBehaviour
                 BeginItemMove();
             }
         }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            // Find the slot we clicked on
+            if (isMovingItem)
+            {
+                // End item move
+                EndItemMoveSingle();
+            }
+            else
+            {
+                BeginItemMoveHalf();
+            }
+        }
     }
 
     #region Inventory Utils
@@ -185,6 +198,24 @@ public class InventoryManger : MonoBehaviour
         return true;
     }
 
+    private bool BeginItemMoveHalf()
+    {
+        originalSlot = GetClosestSlot();
+        if (originalSlot == null || originalSlot.GetItem() == null)
+        {
+            return false;
+        }
+        movingSlot = new SlotClass(originalSlot.GetItem(), Mathf.CeilToInt(originalSlot.GetQuantity() / 2f)); ;
+        originalSlot.SubQuantity(Mathf.CeilToInt(originalSlot.GetQuantity() / 2f));
+        if (originalSlot.GetQuantity() == 0)
+        {
+            originalSlot.Clear();
+        }
+        isMovingItem = true;
+        RefreshUI();
+        return true;
+    }
+
     private bool EndItemMove()
     {
         originalSlot = GetClosestSlot();
@@ -225,6 +256,42 @@ public class InventoryManger : MonoBehaviour
             }
         }
         isMovingItem = false;
+        RefreshUI();
+        return true;
+    }
+
+    private bool EndItemMoveSingle()
+    {
+        originalSlot = GetClosestSlot();
+        if (originalSlot == null || movingSlot.GetItem().isStackable == false)
+        {
+            return false;
+        }
+        
+        if (originalSlot.GetItem() != null && originalSlot.GetItem() != movingSlot.GetItem())
+        {
+            return false;
+        }
+
+        movingSlot.SubQuantity(1);
+        if (originalSlot.GetItem() != null && originalSlot.GetItem() == movingSlot.GetItem())
+        {
+            originalSlot.AddQuantity(1);
+        }
+        else
+        {
+            originalSlot.AddItem(movingSlot.GetItem(), 1);
+        }
+
+        if (movingSlot.GetQuantity() < 1)
+        {
+            isMovingItem = false;
+            movingSlot.Clear();
+        }
+        else
+        {
+            isMovingItem = true;
+        }
         RefreshUI();
         return true;
     }
