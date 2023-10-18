@@ -9,6 +9,7 @@ public class InventoryManger : MonoBehaviour
     [SerializeField] private GameObject itemCursor;
     
     [SerializeField] private GameObject slotHolder;
+    [SerializeField] private GameObject hotbarSlotHolder;
     
     [SerializeField] private ItemClass itemToAdd;
     [SerializeField] private ItemClass itemToRemove;
@@ -17,16 +18,29 @@ public class InventoryManger : MonoBehaviour
     private SlotClass[] items;
 
     private GameObject[] slots;
+    private GameObject[] hotbarSlots;
 
     private SlotClass movingSlot;
     private SlotClass tempSlot;
     private SlotClass originalSlot;
     private bool isMovingItem;
 
+    [SerializeField] private GameObject hotbarSelector;
+    [SerializeField] private int selectedSlotIndex = 0;
+    public ItemClass selectedItem;
+
     private void Start()
     {
+        
         slots = new GameObject[slotHolder.transform.childCount];
         items = new SlotClass[slots.Length];
+
+        hotbarSlots = new GameObject[hotbarSlotHolder.transform.childCount];
+        for (int i = 0; i < hotbarSlots.Length; i++)
+        {
+            hotbarSlots[i] = hotbarSlotHolder.transform.GetChild(i).gameObject;
+        }
+        
 
         for (int i = 0; i < items.Length; i++)
         {
@@ -83,6 +97,43 @@ public class InventoryManger : MonoBehaviour
                 BeginItemMoveHalf();
             }
         }
+
+        switch(Input.inputString)
+        {
+            case "1":
+                selectedSlotIndex = 0;
+                break;
+            case "2":
+                selectedSlotIndex = 1;
+                break;
+            case "3":
+                selectedSlotIndex = 2;
+                break;
+            case "4":
+                selectedSlotIndex = 3;
+                break;
+            case "5":
+                selectedSlotIndex = 4;
+                break;
+            case "6":
+                selectedSlotIndex = 5;
+                break;
+            case "7":
+                selectedSlotIndex = 6;
+                break;
+            case "8":
+                selectedSlotIndex = 7;
+                break;
+            case "9":
+                selectedSlotIndex = 8;
+                break;
+            case "0":
+                selectedSlotIndex = 9;
+                break;
+        }
+
+        hotbarSelector.transform.position = hotbarSlots[selectedSlotIndex].transform.position;
+        selectedItem = items[selectedSlotIndex + (hotbarSlots.Length * 5) - 2].GetItem();
     }
 
     #region Inventory Utils
@@ -110,6 +161,34 @@ public class InventoryManger : MonoBehaviour
                 slots[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
             }
         }
+
+        RefreshHotbar();
+    }
+
+    public void RefreshHotbar()
+    {
+        for (int i = 0; i < hotbarSlots.Length; i++)
+        {
+            try
+            {
+                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().enabled = true;
+                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().sprite = items[i + (hotbarSlots.Length * 5) - 2].GetItem().itemIcon;
+                if (items[i + (hotbarSlots.Length * 5) - 2].GetItem().isStackable)
+                {
+                    hotbarSlots[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = items[i + (hotbarSlots.Length * 5) - 2].GetQuantity().ToString();
+                }
+                else
+                {
+                    hotbarSlots[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
+                }
+            }
+            catch
+            {
+                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().sprite = null;
+                hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().enabled = false;
+                hotbarSlots[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
+            }
+        }
     }
 
     public bool Add(ItemClass item, int quantity)
@@ -119,7 +198,7 @@ public class InventoryManger : MonoBehaviour
         SlotClass slot = Contains(item);
         if (slot != null && slot.GetItem().isStackable)
         {
-            slot.AddQuantity(movingSlot.GetQuantity());
+            slot.AddQuantity(quantity);
         }
         else
         {
