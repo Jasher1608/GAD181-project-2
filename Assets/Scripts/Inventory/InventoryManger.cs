@@ -6,6 +6,7 @@ using TMPro;
 
 public class InventoryManger : MonoBehaviour
 {
+    [SerializeField] private List<CraftingRecipeClass> craftingRecipes = new List<CraftingRecipeClass>();
     [SerializeField] private GameObject itemCursor;
     
     [SerializeField] private GameObject slotHolder;
@@ -215,14 +216,14 @@ public class InventoryManger : MonoBehaviour
         return true;
     }
     
-    public bool Remove(ItemClass item)
+    public bool Remove(ItemClass item, int quantity)
     {
         SlotClass temp = Contains(item);
         if (temp != null)
         {
             if (temp.GetQuantity() > 1)
             {
-                temp.SubQuantity(1);
+                temp.SubQuantity(quantity);
             }
             else
             {
@@ -259,6 +260,18 @@ public class InventoryManger : MonoBehaviour
             }
         }
         return null;
+    }
+
+    public bool Contains(ItemClass item, int quantity)
+    {
+        for (int i = 0; i < items.Length; i++)
+        {
+            if (items[i].GetItem() == item && items[i].GetQuantity() >= quantity)
+            {
+                return true;
+            }
+        }
+        return false;
     }
     #endregion Inventory Utils
 

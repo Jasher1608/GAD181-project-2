@@ -5,6 +5,5 @@ using UnityEngine;
 public class ResourceClass : ItemClass
 {
     //[Header("Resource:")]
-    public override ItemClass GetItem() { return this; }
     public override ResourceClass GetResource() { return this; }
 }
