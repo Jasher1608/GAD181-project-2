@@ -65,11 +65,6 @@ public class InventoryManger : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            Craft(craftingRecipes[0]);
-        }
-        
         itemCursor.SetActive(isMovingItem);
         itemCursor.transform.position = Input.mousePosition;
         if (isMovingItem)
