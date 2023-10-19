@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
     public InventoryManger inventory;
     [SerializeField] private GameObject inventoryPanel;
+    [SerializeField] private GameObject craftingPanel;
     [SerializeField] private GameObject hotbarPanel;
     [SerializeField] private GameObject selector;
 
@@ -36,21 +37,27 @@ public class PlayerController : MonoBehaviour
             if (inventoryPanel.activeInHierarchy)
             {
                 inventoryPanel.SetActive(false);
+                craftingPanel.SetActive(false);
                 hotbarPanel.SetActive(true);
                 selector.SetActive(true);
             }
             else
             {
                 inventoryPanel.SetActive(true);
+                craftingPanel.SetActive(true);
                 hotbarPanel.SetActive(false);
                 selector.SetActive(false);
+                rb.velocity = new Vector2(0, 0);
             }
         }
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
+        if (!inventoryPanel.activeSelf)
+        {
+            rb.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
+        }
     }
 }
 
