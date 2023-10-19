@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Iron Stick
   m_EditorClassIdentifier: 
   itemName: Iron stick
-  itemIcon: {fileID: -1852632845, guid: a1a32e65082872a4886f62f0e2c6130f, type: 3}
+  itemIcon: {fileID: 457874837, guid: 5608204a32886604bb12e4848fe6fa17, type: 3}
   isStackable: 1

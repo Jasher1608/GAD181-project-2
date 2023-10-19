@@ -142,7 +142,7 @@ public class InventoryManger : MonoBehaviour
         selectedItem = items[selectedSlotIndex + (hotbarSlots.Length * 5) - 2].GetItem();
     }
 
-    private void Craft(CraftingRecipeClass recipe)
+    public void Craft(CraftingRecipeClass recipe)
     {
         if (recipe.CanCraft(this))
         {

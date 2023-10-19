@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Iron Plate
   m_EditorClassIdentifier: 
   itemName: Iron plate
-  itemIcon: {fileID: 443581640, guid: ac872f7775bb56b4c9f87c23abf4e60c, type: 3}
+  itemIcon: {fileID: -1762342633, guid: 5608204a32886604bb12e4848fe6fa17, type: 3}
   isStackable: 1
