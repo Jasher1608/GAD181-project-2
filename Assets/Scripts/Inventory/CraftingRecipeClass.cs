@@ -11,6 +11,12 @@ public class CraftingRecipeClass : ScriptableObject
 
     public bool CanCraft(InventoryManger inventory)
     {
+        // Check if there is space in inventory
+        if (inventory.isFull())
+        {
+            return false;
+        }
+        
         for (int i = 0; i < inputItems.Length; i++)
         {
             if (!inventory.Contains(inputItems[i].GetItem(), inputItems[i].GetQuantity()))

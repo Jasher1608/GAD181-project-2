@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dbc0311846c4ca408f0e5dbbec60a38, type: 3}
   m_Name: Iron Plate
   m_EditorClassIdentifier: 
-  inputItems: []
+  inputItems:
+  - item: {fileID: 11400000, guid: b04e2c97975aa51478540951581a8b49, type: 2}
+    quantity: 1
   outputItems:
-    item: {fileID: 0}
-    quantity: 0
+    item: {fileID: 11400000, guid: ad3ff3daad21954418e85f38343ea3c5, type: 2}
+    quantity: 1
+  craftingTime: 3

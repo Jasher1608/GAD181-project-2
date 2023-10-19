@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
 
     public InventoryManger inventory;
     [SerializeField] private GameObject inventoryPanel;
+    [SerializeField] private GameObject hotbarPanel;
+    [SerializeField] private GameObject selector;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,23 @@ public class PlayerController : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
+
+        // Inventory
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (inventoryPanel.activeInHierarchy)
+            {
+                inventoryPanel.SetActive(false);
+                hotbarPanel.SetActive(true);
+                selector.SetActive(true);
+            }
+            else
+            {
+                inventoryPanel.SetActive(true);
+                hotbarPanel.SetActive(false);
+                selector.SetActive(false);
+            }
+        }
     }
 
     private void FixedUpdate()

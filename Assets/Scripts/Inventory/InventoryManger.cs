@@ -65,6 +65,11 @@ public class InventoryManger : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Craft(craftingRecipes[0]);
+        }
+        
         itemCursor.SetActive(isMovingItem);
         itemCursor.transform.position = Input.mousePosition;
         if (isMovingItem)
@@ -99,7 +104,7 @@ public class InventoryManger : MonoBehaviour
             }
         }
 
-        switch(Input.inputString)
+        switch (Input.inputString)
         {
             case "1":
                 selectedSlotIndex = 0;
@@ -135,6 +140,18 @@ public class InventoryManger : MonoBehaviour
 
         hotbarSelector.transform.position = hotbarSlots[selectedSlotIndex].transform.position;
         selectedItem = items[selectedSlotIndex + (hotbarSlots.Length * 5) - 2].GetItem();
+    }
+
+    private void Craft(CraftingRecipeClass recipe)
+    {
+        if (recipe.CanCraft(this))
+        {
+            recipe.Craft(this);
+        }
+        else
+        {
+            Debug.Log("Can't craft");
+        }
     }
 
     #region Inventory Utils
@@ -250,6 +267,19 @@ public class InventoryManger : MonoBehaviour
         return true;
     }
     
+    public bool isFull()
+    {
+        for (int i = 0; i < items.Length; i++)
+        {
+            if (items[i].GetItem() == null)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public SlotClass Contains(ItemClass item)
     {
         for (int i = 0; i < items.Length; i++)
