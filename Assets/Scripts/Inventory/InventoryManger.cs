@@ -142,6 +142,7 @@ public class InventoryManger : MonoBehaviour
         if (recipe.CanCraft(this))
         {
             recipe.Craft(this);
+            RefreshUI();
         }
         else
         {
@@ -165,6 +166,11 @@ public class InventoryManger : MonoBehaviour
                 else
                 {
                     slots[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
+                }
+
+                if (items[i].GetQuantity() == 0)
+                {
+                    items[i].Clear();
                 }
             }
             catch
