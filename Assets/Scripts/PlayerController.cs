@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -19,6 +20,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject hotbarPanel;
     [SerializeField] private GameObject selector;
 
+    [SerializeField] private Tilemap ironOreTilemap;
+
+    [SerializeField] private ItemClass ironOre;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +36,12 @@ public class PlayerController : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
+        Vector3 mousePos = Input.mousePosition;
+
         // Inventory
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (inventoryPanel.activeInHierarchy)
+            if (inventoryPanel.activeSelf)
             {
                 inventoryPanel.SetActive(false);
                 craftingPanel.SetActive(false);
@@ -50,6 +57,22 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = new Vector2(0, 0);
             }
         }
+
+        // Mining
+        if (Input.GetMouseButtonDown(1) && !inventoryPanel.activeSelf)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
+
+            if (hit.collider != null)
+            {
+                Tilemap tilemap = hit.collider.GetComponent<Tilemap>();
+                if (tilemap != null && tilemap == ironOreTilemap)
+                {
+                    MineIron();
+                }
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -58,6 +81,11 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
         }
+    }
+
+    private void MineIron()
+    {
+        inventory.Add(ironOre, 1);
     }
 }
 
