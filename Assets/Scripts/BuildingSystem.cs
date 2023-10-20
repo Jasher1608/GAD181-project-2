@@ -28,4 +28,21 @@ public static class BuildingSystem
             return (value + 0.75f);
         }
     }
+
+    public static bool IsObjectHere(Vector2 position)
+    {
+        Collider2D intersecting = Physics2D.OverlapCircle(position, 0.01f);
+        if (intersecting == null)
+        {
+            return false;
+        }
+        else if (intersecting.gameObject.CompareTag("Building"))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }

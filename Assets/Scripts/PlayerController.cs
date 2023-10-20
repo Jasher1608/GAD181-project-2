@@ -63,7 +63,6 @@ public class PlayerController : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
-            
 
             if (hit.collider != null)
             {
@@ -77,7 +76,14 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && inventory.selectedItem && !inventoryPanel.activeSelf)
         {
-            Build();
+            mousePos.z = Camera.main.nearClipPlane;
+            Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
+            Vector2 worldPos2D = new Vector2(worldPos.x, worldPos.y);
+
+            if (!BuildingSystem.IsObjectHere(worldPos2D))
+            {
+                Build();
+            }
         }
     }
 

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!21 &-6752895881412204843
+--- !u!21 &-1749460024289503193
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 1
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Name: items_sheet
   m_EditorClassIdentifier: 
   hashCode: 1759578294
-  material: {fileID: -6752895881412204843}
+  material: {fileID: -1749460024289503193}
   materialHashCode: 0
   m_Version: 1.1.0
   m_FaceInfo:
@@ -105,6 +105,12 @@ MonoBehaviour:
     m_Scale: 1
     m_Name: items_sheet_3
     m_HashCode: 625345658
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 4
+    m_Scale: 1
+    m_Name: items_sheet_4
+    m_HashCode: 625345661
   m_SpriteGlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -170,5 +176,21 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: 457874837, guid: 5608204a32886604bb12e4848fe6fa17, type: 3}
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 64
+      m_Height: 64
+      m_HorizontalBearingX: -0
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 64
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 0
+      m_Width: 64
+      m_Height: 64
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 1284192680, guid: 5608204a32886604bb12e4848fe6fa17, type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []
