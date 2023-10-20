@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
 
     float horizontal;
     float vertical;
+
+    [SerializeField] private Animator animator;
+
     private Vector2 movement;
     private Rigidbody2D rb;
 
@@ -27,6 +30,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,6 +38,19 @@ public class PlayerController : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", horizontal);
+        animator.SetFloat("Vertical", vertical);
+
+        if (horizontal > 0.001 || vertical > 0.001 || horizontal < -0.001 || vertical < -0.001)
+        {
+            animator.SetBool("IsMoving", true);
+        }
+        else
+        {
+            animator.SetBool("IsMoving", false);
+        }
+
 
         Vector3 mousePos = Input.mousePosition;
         
