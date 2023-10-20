@@ -44,6 +44,9 @@ TagManager:
   - name: Ore
     uniqueID: 3239695851
     locked: 0
+  - name: Building
+    uniqueID: 82790137
+    locked: 0
   - name: Player
     uniqueID: 1837479231
     locked: 0

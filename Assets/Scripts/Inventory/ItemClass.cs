@@ -11,8 +11,10 @@ public class ItemClass : ScriptableObject
 
     public virtual void Use(PlayerController caller)
     {
-        Debug.Log("Used Item");
+        //Debug.Log("Used Item");
     }
+    
     public virtual ItemClass GetItem() { return this; }
     public virtual ResourceClass GetResource() { return null; }
+    public virtual BuildableClass GetBuildable() { return null; }
 }

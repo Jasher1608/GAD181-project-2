@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject selector;
 
     [SerializeField] private Tilemap ironOreTilemap;
-
     [SerializeField] private ItemClass ironOre;
 
     // Start is called before the first frame update
@@ -37,6 +36,7 @@ public class PlayerController : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
 
         Vector3 mousePos = Input.mousePosition;
+        
 
         // Inventory
         if (Input.GetKeyDown(KeyCode.E))
@@ -63,6 +63,7 @@ public class PlayerController : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
+            
 
             if (hit.collider != null)
             {
@@ -72,6 +73,11 @@ public class PlayerController : MonoBehaviour
                     MineIron();
                 }
             }
+        }
+
+        if (Input.GetMouseButtonDown(0) && inventory.selectedItem && !inventoryPanel.activeSelf)
+        {
+            Build();
         }
     }
 
@@ -86,6 +92,12 @@ public class PlayerController : MonoBehaviour
     private void MineIron()
     {
         inventory.Add(ironOre, 1);
+    }
+
+    private void Build()
+    {
+        inventory.selectedItem.Use(this);
+        inventory.Remove(inventory.selectedItem, 1);
     }
 }
 
