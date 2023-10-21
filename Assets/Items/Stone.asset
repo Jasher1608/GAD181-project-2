@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e312ad4fa19a254aa6fd4f0915665d1, type: 3}
-  m_Name: Transport Belt Right
+  m_Script: {fileID: 11500000, guid: 31501041481460a46bab87e9855fb47f, type: 3}
+  m_Name: Stone
   m_EditorClassIdentifier: 
-  itemName: Transport belt right
-  itemIcon: {fileID: 2051321565, guid: 48fef9f0e4a53a6409c3e86417702ec3, type: 3}
+  itemName: Stone
+  itemIcon: {fileID: 1555563308, guid: 5608204a32886604bb12e4848fe6fa17, type: 3}
   isStackable: 1
-  prefab: {fileID: 1213373575568019400, guid: f15414193f583e44787427aaab72673f, type: 3}

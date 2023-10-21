@@ -1,0 +1,844 @@
+fileFormatVersion: 2
+guid: 6f8b8918da5d71042a2a725a36a0f5fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 168
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539ddcb5c30782545a56c784d446c4ee
+      internalID: -664969391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1218
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252b08c59517afd48b7060bf264de723
+      internalID: -1649733695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1218
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568251e5350b8d748ba21da5db313552
+      internalID: 260179959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_3
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1218
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfdf9d96a6c95544a6503f21a33d720
+      internalID: 775090427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1044
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0029e1dbb12a51c4e8ba2c201e393286
+      internalID: 1481555068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1044
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a0c3238d3b245489228b316d24ec6e
+      internalID: -1787865329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1044
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c9995c1708e664594be2ce5493b442
+      internalID: 1772608436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_7
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1044
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e801c7b9483b61248a174e958687b76c
+      internalID: 1954095442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c563490bd18c2d840a47e7c954f75d89
+      internalID: 1187454972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 870
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bace2755a38f0da459e2dd6adf65b069
+      internalID: 1938663369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 870
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ee95729651dec4d8d4f15440cf10c4
+      internalID: -1392716630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_11
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 870
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf91ef7d37ccc14781b1e7b480e8c30
+      internalID: 2132753273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892fd125808c30f4f9b73856c8eceb88
+      internalID: -1844291409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 696
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829860fcc3e8c1042a56a937f07b0acc
+      internalID: 1845465665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 696
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52038c2c3f9d78f4597f05438ab93932
+      internalID: -1556957221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_15
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 696
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e9fc5a828842b4cab9a4f98875bc02
+      internalID: 367622499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74ee316b7aec6742b9fb46d6e4e3642
+      internalID: -920450956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 522
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dceff2ff0b373a4b804162218ec2527
+      internalID: 1165086708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_18
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 522
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe879ac8807e1f448808215070f0176
+      internalID: -2052374065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_19
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 522
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b3cf4a6111a4e4b8760b2f4ee99929
+      internalID: -328488100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db39a86fac211d448963460be03b444
+      internalID: -936541721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 348
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3877c7a9ba0fc64cb5c7413ada63576
+      internalID: -532553485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 348
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9e971a6ecc9c549b8ed8440dde7bbd
+      internalID: 1060049459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_23
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 348
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f66add166077f4792f47c859181704
+      internalID: -1574534887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba91b0e6fb3e50e4f8ec3211e7ff96be
+      internalID: -1637058387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_25
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 174
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9580b80f2d3f5d4489c2ec0f439bb3b7
+      internalID: -1022930973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 174
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8287baecd2cbecc4e93803694fd2e064
+      internalID: 1623551623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_27
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 174
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9552d24257f14e4aa820d0038103e68
+      internalID: 1523581983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc829425d72c81499c0caaa88bab78f
+      internalID: -1795137776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_29
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae47b74b37639b4c8f916bb987bf6da
+      internalID: 539963734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_30
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82924cee1e349d44782d59ef028916ae
+      internalID: -1393316726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hr-burner-mining-drill-S_31
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 174
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5f920080f6ed645bb4c20cb29ab065
+      internalID: 181439371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hr-burner-mining-drill-S_0: -664969391
+      hr-burner-mining-drill-S_1: -1649733695
+      hr-burner-mining-drill-S_10: -1392716630
+      hr-burner-mining-drill-S_11: 2132753273
+      hr-burner-mining-drill-S_12: -1844291409
+      hr-burner-mining-drill-S_13: 1845465665
+      hr-burner-mining-drill-S_14: -1556957221
+      hr-burner-mining-drill-S_15: 367622499
+      hr-burner-mining-drill-S_16: -920450956
+      hr-burner-mining-drill-S_17: 1165086708
+      hr-burner-mining-drill-S_18: -2052374065
+      hr-burner-mining-drill-S_19: -328488100
+      hr-burner-mining-drill-S_2: 260179959
+      hr-burner-mining-drill-S_20: -936541721
+      hr-burner-mining-drill-S_21: -532553485
+      hr-burner-mining-drill-S_22: 1060049459
+      hr-burner-mining-drill-S_23: -1574534887
+      hr-burner-mining-drill-S_24: -1637058387
+      hr-burner-mining-drill-S_25: -1022930973
+      hr-burner-mining-drill-S_26: 1623551623
+      hr-burner-mining-drill-S_27: 1523581983
+      hr-burner-mining-drill-S_28: -1795137776
+      hr-burner-mining-drill-S_29: 539963734
+      hr-burner-mining-drill-S_3: 775090427
+      hr-burner-mining-drill-S_30: -1393316726
+      hr-burner-mining-drill-S_31: 181439371
+      hr-burner-mining-drill-S_4: 1481555068
+      hr-burner-mining-drill-S_5: -1787865329
+      hr-burner-mining-drill-S_6: 1772608436
+      hr-burner-mining-drill-S_7: 1954095442
+      hr-burner-mining-drill-S_8: 1187454972
+      hr-burner-mining-drill-S_9: 1938663369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

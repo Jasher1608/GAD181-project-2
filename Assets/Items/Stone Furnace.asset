@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e312ad4fa19a254aa6fd4f0915665d1, type: 3}
+  m_Name: Stone Furnace
+  m_EditorClassIdentifier: 
+  itemName: Stone furnace
+  itemIcon: {fileID: 21300000, guid: f24796a31300c6a4385965fab215486b, type: 3}
+  isStackable: 1
+  prefabNorth: {fileID: 6374376247523212430, guid: 5351ed7a189609f429ee261bd71f4eba, type: 3}
+  prefabEast: {fileID: 6374376247523212430, guid: 5351ed7a189609f429ee261bd71f4eba, type: 3}
+  prefabSouth: {fileID: 6374376247523212430, guid: 5351ed7a189609f429ee261bd71f4eba, type: 3}
+  prefabWest: {fileID: 6374376247523212430, guid: 5351ed7a189609f429ee261bd71f4eba, type: 3}

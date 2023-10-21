@@ -14,9 +14,17 @@ public class Conveyor : MonoBehaviour
         {
             switch (beltDirection)
             {
-                case BeltDirection.Right:
+                case BeltDirection.North:
+                    rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + beltSpeed);
+                    break;
+                case BeltDirection.East:
                     rb.velocity = new Vector2(rb.velocity.x + beltSpeed, rb.velocity.y);
-
+                    break;
+                case BeltDirection.South:
+                    rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - beltSpeed);
+                    break;
+                case BeltDirection.West:
+                    rb.velocity = new Vector2(rb.velocity.x - beltSpeed, rb.velocity.y);
                     break;
             }
         }
@@ -38,8 +46,8 @@ public class Conveyor : MonoBehaviour
 
 public enum BeltDirection
 {
-    Up,
-    Down,
-    Left,
-    Right
+    North,
+    East,
+    South,
+    West
 }

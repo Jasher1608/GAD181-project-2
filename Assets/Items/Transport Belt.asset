@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e312ad4fa19a254aa6fd4f0915665d1, type: 3}
+  m_Name: Transport Belt
+  m_EditorClassIdentifier: 
+  itemName: Transport belt
+  itemIcon: {fileID: 2051321565, guid: 48fef9f0e4a53a6409c3e86417702ec3, type: 3}
+  isStackable: 1
+  prefabNorth: {fileID: 1534280611457998958, guid: e442b21c6158b0f458a626b87047c974, type: 3}
+  prefabEast: {fileID: 1213373575568019400, guid: f15414193f583e44787427aaab72673f, type: 3}
+  prefabSouth: {fileID: 13458223933391679, guid: b93b5503eaf238946b0e6dfaa8f746e7, type: 3}
+  prefabWest: {fileID: 7840093642687191294, guid: f4cf5d943045a26468d0ef427b01f05a, type: 3}
