@@ -59,8 +59,6 @@ public class InventoryManger : MonoBehaviour
             slots[i] = slotHolder.transform.GetChild(i).gameObject;
         }
         RefreshUI();
-        //Add(itemToAdd, 1);
-        //Remove(itemToRemove);
     }
 
     private void Update()
