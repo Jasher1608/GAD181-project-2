@@ -37,11 +37,17 @@ public class PlayerController : MonoBehaviour
     private float miningTimer = 0f;
     [SerializeField] private float miningTimerThreshold;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip mineOre;
+    [SerializeField] private AudioClip mineStone;
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         miningProgress.maxValue = miningTimerThreshold;
     }
@@ -106,6 +112,12 @@ public class PlayerController : MonoBehaviour
                     miningTimer += Time.deltaTime;
                     miningProgress.gameObject.SetActive(true);
                     miningProgress.value = miningTimer;
+                    audioSource.loop = true;
+                    audioSource.clip = mineOre;
+                    if (!audioSource.isPlaying)
+                    {
+                        audioSource.Play();
+                    }
                     if (miningTimer >= miningTimerThreshold)
                     {
                         Mine(ironOre);
@@ -118,6 +130,12 @@ public class PlayerController : MonoBehaviour
                     miningTimer += Time.deltaTime;
                     miningProgress.gameObject.SetActive(true);
                     miningProgress.value = miningTimer;
+                    audioSource.loop = true;
+                    audioSource.clip = mineStone;
+                    if (!audioSource.isPlaying)
+                    {
+                        audioSource.Play();
+                    }
                     if (miningTimer >= miningTimerThreshold)
                     {
                         Mine(stone);
@@ -131,6 +149,7 @@ public class PlayerController : MonoBehaviour
                 miningTimer = 0f;
                 miningProgress.gameObject.SetActive(false);
                 miningProgress.value = 0f;
+                audioSource.loop = false;
             }
         }
         else
@@ -139,6 +158,7 @@ public class PlayerController : MonoBehaviour
             miningTimer = 0f;
             miningProgress.gameObject.SetActive(false);
             miningProgress.value = 0f;
+            audioSource.loop = false;
         }
 
         if (Input.GetMouseButtonDown(0) && !inventoryPanel.activeSelf && inventory.selectedItem)
@@ -173,6 +193,7 @@ public class PlayerController : MonoBehaviour
 
     private void Mine(ItemClass ore)
     {
+        audioSource.loop = false;
         inventory.Add(ore, 1);
     }
 
