@@ -15,6 +15,7 @@ MonoBehaviour:
   itemName: Mining drill
   itemIcon: {fileID: 517914923, guid: 5608204a32886604bb12e4848fe6fa17, type: 3}
   isStackable: 1
+  size: 2
   prefabNorth: {fileID: 9122066520104959405, guid: 59b6696a6e5cdcd4daa09d104c298c1e, type: 3}
   prefabEast: {fileID: 1772460356704665056, guid: df15db463e093aa40bfe773e097f4a15, type: 3}
   prefabSouth: {fileID: 1653882506382151454, guid: 55102018e42a78c4e82ea8d55d33f9be, type: 3}
