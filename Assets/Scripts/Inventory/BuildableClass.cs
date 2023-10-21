@@ -6,6 +6,8 @@ public class BuildableClass : ItemClass
 {
     public override BuildableClass GetBuildable() { return this; }
 
+    public int size = 1;
+
     public GameObject prefabNorth;
     public GameObject prefabEast;
     public GameObject prefabSouth;

@@ -37,23 +37,6 @@ public static class BuildingSystem
 
     public static bool IsObjectHere(Vector2 position)
     {
-        /*
-        Collider2D intersecting = Physics2D.OverlapCircle(position, 0.00000000000001f);
-        if (intersecting == null)
-        {
-            return false;
-        }
-        else if (intersecting.gameObject.CompareTag("Building"))
-        {
-            Debug.Log(intersecting);
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-        */
-
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit;
 
