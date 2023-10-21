@@ -141,13 +141,9 @@ public class PlayerController : MonoBehaviour
             miningProgress.value = 0f;
         }
 
-        if (Input.GetMouseButtonDown(0) && inventory.selectedItem && !inventoryPanel.activeSelf)
+        if (Input.GetMouseButtonDown(0) && !inventoryPanel.activeSelf && inventory.selectedItem)
         {
-            mousePos.z = Camera.main.nearClipPlane;
-            Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
-            Vector2 worldPos2D = new Vector2(worldPos.x, worldPos.y);
-
-            if (!BuildingSystem.IsObjectHere(worldPos2D))
+            if (!BuildingSystem.IsObjectHere() && inventory.selectedItem.GetBuildable())
             {
                 Build();
             }

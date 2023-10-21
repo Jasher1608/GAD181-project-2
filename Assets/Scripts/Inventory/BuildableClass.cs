@@ -20,16 +20,16 @@ public class BuildableClass : ItemClass
         switch (PlayerController.direction)
         {
             case BuildingDirection.North:
-                Instantiate(prefabNorth, BuildingSystem.ClosestTile(Input.mousePosition), Quaternion.identity);
+                Instantiate(prefabNorth, BuildingSystem.ClosestTile(Input.mousePosition, this), Quaternion.identity);
                 break;
             case BuildingDirection.East:
-                Instantiate(prefabEast, BuildingSystem.ClosestTile(Input.mousePosition), Quaternion.identity);
+                Instantiate(prefabEast, BuildingSystem.ClosestTile(Input.mousePosition, this), Quaternion.identity);
                 break;
             case BuildingDirection.South:
-                Instantiate(prefabSouth, BuildingSystem.ClosestTile(Input.mousePosition), Quaternion.identity);
+                Instantiate(prefabSouth, BuildingSystem.ClosestTile(Input.mousePosition, this), Quaternion.identity);
                 break;
             case BuildingDirection.West:
-                Instantiate(prefabWest, BuildingSystem.ClosestTile(Input.mousePosition), Quaternion.identity);
+                Instantiate(prefabWest, BuildingSystem.ClosestTile(Input.mousePosition, this), Quaternion.identity);
                 break;
         }
     }
