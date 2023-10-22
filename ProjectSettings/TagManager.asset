@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Undefined
   - Building
+  - IronOreTilemap
+  - StoneTilemap
+  - CoalTilemap
   layers:
   - Default
   - TransparentFX

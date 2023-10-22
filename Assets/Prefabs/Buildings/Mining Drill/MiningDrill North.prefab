@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7984095375107289915}
   - component: {fileID: 3100116787552831512}
   - component: {fileID: 839388464562938680}
+  - component: {fileID: 8676790896681189081}
   m_Layer: 6
   m_Name: MiningDrill North
   m_TagString: Building
@@ -145,6 +146,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minerDirection: 0
+  ironOre: {fileID: 8793062061351756519, guid: 13c827943da400f4f8bf1ffb891f56aa, type: 3}
+  stone: {fileID: 3197451134865837815, guid: dac69324c81ab54499c6425d58dacbe1, type: 3}
+  oreMiningTime: 1
+  miningSpeed: 4
 --- !u!95 &839388464562938680
 Animator:
   serializedVersion: 5
@@ -166,3 +171,48 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &8676790896681189081
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9122066520104959405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1011904, y: 1}
+    newSize: {x: 0.925, y: 0.84}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
